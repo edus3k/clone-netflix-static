@@ -1,0 +1,35 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* HEADER */
+@import url('header.css');
+/*SPOTLIGHT*/
+@import url('spotlight.css');
+/*CARROSEEL*/
+@import url('carroseel.css');
+/* FOOTER */
+@import url('footer.css');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #111;
+    color: #FFF;
+    display: grid;
+}
+
+.loading-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}

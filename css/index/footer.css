@@ -1,0 +1,70 @@
+/*
+    FOOTER
+*/
+footer{
+    background-color: #000;
+    height: 7vh;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    border-top: 8px solid #222;
+}
+
+.flix--doubts{
+    padding: 1% 10%;
+    background-color: #000;
+    text-align: left;
+}
+
+.flix--doubts h3 a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.flix--doubts h3 a:hover{
+    text-decoration: underline;
+}
+
+
+.flix--links{
+    list-style: none;
+    background-color: #000;
+}
+
+.flix--links ul{
+    padding: 0% 10%;
+    text-align: left;
+}
+
+.flix--links ul li{
+    font-size: 13px;
+    display: inline-block;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0.6rem 1rem;
+}
+
+.flix--links ul li a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.flix--links ul li a:hover{
+    text-decoration: underline;
+}
+
+.contacts--dev{
+    color: #757575;
+    background-color: #000;
+    padding: 1rem;
+}
+
+.contacts--dev a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #757575;
+}
+
+.contacts--dev a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,94 @@
+/*
+    HEADER
+*/
+header{
+    height: 8vh;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0rem 2rem;
+    background: transparent;
+    transition: all ease 0.5s;
+    z-index: 1;
+}
+
+.header-black{
+    background-color: #141414;
+}
+
+.header--left{
+    display: flex;
+}
+
+.header--left-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 2rem;
+}
+
+.header--left-menu li a{
+    cursor: pointer;
+    margin: 0rem 0.4rem;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.header--left-menu li a:hover{
+    color:#e5e5e58f;
+    transition: all ease 0.6s;
+}
+
+.header--logo{
+    cursor: pointer;
+}
+
+.header--logo,
+.header--search,
+.header--bell,
+.header--profile {
+    cursor: pointer;
+    height: 4rem;
+    padding: 1rem 0rem;
+}
+
+.header--logo img,
+.header--search img,
+.header--bell img,
+.header--profile img {
+    height: 100%;
+}
+
+.header--profile img {
+    border-radius: 3px;
+}
+
+.header--search img{
+    height: 1.5rem;
+}
+
+.header--infantil a{
+    cursor: pointer;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.header--infantil a:hover{
+    color:#e5e5e58f;
+    transition: all ease 0.6s;
+}
+
+.header--right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--right div{
+    margin: 0rem 0.6rem;
+}

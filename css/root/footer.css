@@ -1,0 +1,70 @@
+/*
+    FOOTER
+*/
+footer{
+    color: #757575;
+    background-color: #111;
+    height: 7vh;
+    align-items: center;
+    text-align: center;
+}
+
+.flix--api{
+    padding: 1% 10%;
+    background-color: #111;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flix--api h3 a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.flix--api h3 a:hover{
+    text-decoration: underline;
+}
+
+.flix--links{
+    list-style: none;
+    background-color: #111;
+}
+
+.flix--links ul{
+    padding: 0% 10%;
+    text-align: left;
+}
+
+.flix--links ul li{
+    font-size: 13px;
+    display: inline-block;
+    justify-content: space-between;
+    width: 20%;
+    margin: 0.6rem 1rem;
+}
+
+.flix--links ul li a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.flix--links ul li a:hover{
+    text-decoration: underline;
+}
+
+.contacts--dev{
+    background-color: #111;
+    padding: 1rem;
+    text-align: center;
+}
+
+.contacts--dev a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #757575;
+}
+
+.contacts--dev a:hover{
+    text-decoration: underline;
+}

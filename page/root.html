@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>NetFlix - Clone</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="../icons/nficon.ico">
+        <!-- Js React
+            <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+            <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+            <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        -->
+        <!-- Css -->
+        <link href="../css/root/root-style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="header--left">
+                    <div class="header--logo"><img src="../icons/netflix.svg"/></div>
+                    <ul class="header--left-menu">
+                        <li class="menu--inicio"><a class="menu--inicio-link" href="#">Início</a></li>
+                        <li class="menu--series"><a class="menu--series-link" href="#">Séries</a></li>
+                        <li class="menu--filmes"><a class="menu--filmes-link" href="#">Filmes</a></li>
+                        <li class="menu--bombando"><a class="menu--bombando-link" href="#">Bombando</a></li>
+                        <li class="menu--minha-lista"><a class="menu--minha-lista-link" href="#">Minha lista</a></li>
+                    </ul>
+                </div>
+                <div class="header--right">
+                    <div class="header--search"><img src="../icons/search.svg"/></div>
+                    <div class="header--infantil"><a href="#">Infantil</a></div>
+                    <div class="header--bell"><img src="../icons/bell.svg"/></div>
+                    <div class="header--profile"><img src="../icons/profile.svg"/></div>
+                </div>
+            </header>
+            <div class="spotlight">
+                <div class="spotlight--area">
+                    <div class="spotlight--bg-vertical">
+                        <div class="spotlight--bg-horizontal">
+                            <div class="spotlight--name"></div>
+                            <div class="spotlight--info">
+                                <div class="spotlight--info-points"></div>
+                                <div class="spotlight--info-year"></div>
+                                <div class="spotlight--info-seasons"></div>
+                            </div>
+                            <div class="spotlight--overview"></div>
+                            <div class="spotlight--buttons">
+                                <a class="buttons--assistir" href="#">► Assistir</a>
+                                <a class="buttons--minha-lista" href="#">+ Minha Lista</a>
+                            </div>
+                            <div class="spotlight--genres"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carroseel">
+                <div class="carroseel--list-area">
+                    <div class="carroseel--list"></div>
+                </div>
+            </div>
+            <footer>
+                <div class="flix--api">
+                    <h3>Dados API Retirado do: <a target="_blank" href="https://www.themoviedb.org/?language=pt-BR">Themoviedb</a></h3>
+                    <h3>Feito para fins: <a href="#">Educativo</a></h3>
+                    <h3>Direitos de imagens: <a target="_blank" href="https://www.themoviedb.org/?language=pt-BR">NetFlix</a></h3>
+                </div>
+                <div class="flix--links">
+                    <ul>
+                        <li><a href="#">Perguntas frequentes</a></li>
+                        <li><a href="#">Centro de ajuda</a></li>
+                        <li><a href="#">Conta</a></li>
+                        <li><a href="#">Media Center</a></li>
+                        <li><a href="#">Relações com investidores</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Resgatar cartão pré-pago</a></li>
+                        <li><a href="#">Comprar cartão pré-pago</a></li>
+                        <li><a href="#">Formas de assistir</a></li>
+                        <li><a href="#">Termos de uso</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Preferências de cookies</a></li>
+                        <li><a href="#">Informações corporativas</a></li>
+                        <li><a href="#">Entre em contato</a></li>
+                        <li><a href="#">Teste de velocidade</a></li>
+                        <li><a href="#">Avisos legais</a></li>
+                        <li><a href="#">Só na Netflix</a></li>
+                    </ul>
+                </div>
+                <div class="contacts--dev">
+                    <h4>Desenvolvido por &copy; Eduardo Santos</h4>
+                    <a href="#">Github</a> | <a href="#">Linkedin</a>
+                </div>
+            </footer>
+        </div>
+        <!--Js-->
+        <script src="../js/script-root.js"></script>
+    </body>
+</html>

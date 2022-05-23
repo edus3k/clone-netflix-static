@@ -1,0 +1,16 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/*HEADER*/
+@import url('header.css');
+/*SECTIONS*/
+@import url('sections.css');
+/*FOOTER*/
+@import url('footer.css');
+
+/*GERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}

@@ -1,0 +1,136 @@
+/*
+    HEADER
+*/
+.bg--img-header{
+    height: 785px;
+    background-position: center;
+    background-image: url('../../icons/bg-large.jpg');
+}
+
+.bg--img-header{  
+    height: 785px;
+    background-position: center;
+}
+
+header{
+    padding: 1.5rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+}
+
+header .logo img{
+    cursor: pointer;
+    width: 8.4rem;
+}
+
+/* menu */
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu--select{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 6px;
+    margin-right: 1.5rem;
+    color: #FFF;
+    font-size: 16px;
+    border: solid 0.01px #FFF;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.menu--select img{
+    width: 0.8rem;
+}
+
+.menu--select select{
+    border: none;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu a{
+    text-decoration: none;
+    background-color: #e50914;
+    color: #FFF;
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text--header{
+    margin: 0% 20%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.text--report{
+    margin: 6.8rem 6rem;
+    color: #FFF;
+    z-index: 10;
+}
+
+.text--report h1,h2,h3{
+    padding: 14px 0px;
+}
+
+.text--report h1{
+    font-size: 2.8rem;
+}
+
+.text--report h2, h3{
+    font-weight: 200;
+}
+
+/* report--from */
+.report--from{
+    display: grid;
+    grid-template-columns: 30rem 11.5rem;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.report--from input{
+    padding: 18px 10px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.report--from button{
+    background-color: #e50914;
+    color: #FFF;
+    outline: none;
+    border: none;
+    margin-left: 1px;
+    font-size: 30px;
+}
+
+.report--from button:hover{
+    cursor: pointer;
+    background-color: #f40612;
+}
+
+.report--from button img{
+    margin-left: 4px;
+}
+
+/*bg-color-gradient*/
+.bg-color-gradient{
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 785px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to top,
+    rgba(0,0,0,.8) 0%,
+    rgba(0,0,0,0) 50%,
+    rgba(0,0,0,.8) 100%);
+}
