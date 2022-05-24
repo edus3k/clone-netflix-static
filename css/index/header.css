@@ -7,11 +7,6 @@
     background-image: url('../../icons/bg-large.jpg');
 }
 
-.bg--img-header{  
-    height: 785px;
-    background-position: center;
-}
-
 header{
     padding: 1.5rem 4rem;
     display: flex;
@@ -133,4 +128,84 @@ header .logo img{
     rgba(0,0,0,.8) 0%,
     rgba(0,0,0,0) 50%,
     rgba(0,0,0,.8) 100%);
+}
+
+/* width < 425*/
+@media screen and (max-width: 425px) {
+   
+    header{
+        padding: 2rem 1rem;
+    }
+
+    .bg--img-header{
+        height: 425px;
+    }
+
+    header .logo img{
+        width: 6rem;
+    }
+
+    .menu--select{
+        font-size: 10px;
+        padding: 6px 6px;
+        margin-right: 1rem;
+    }
+    
+    .menu--select img{
+        width: 0.8rem;
+    }
+
+    .menu a{
+        padding: 8px 12px;
+        font-size: 10px;
+    }
+
+    .text--header{
+        margin: 0% 10%;
+    }
+
+    .text--report{
+        margin: 2.8rem 0rem;
+    }
+
+    .text--report h1,h2,h3{
+        padding: 4px 0px;
+    }
+
+    .text--report h1{
+        font-size: 1.6rem;
+    }
+
+    .text--report h2, h3{
+        font-size: 1rem;
+    }
+
+    .text--report h2, h3{
+        font-weight: 200;
+    }
+
+    .report--from{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .report--from input{
+        padding: 12px 20%;
+        font-size: 12px;
+    }
+
+    .report--from button{
+        padding: 1rem;
+        margin: 0.6rem 6rem;
+        font-size: 12px;
+    }
+
+    .report--from button img{
+        width: 0.4rem;
+        margin-left: 4px;
+    }
+
+    .bg-color-gradient{
+        height: 425px;
+    }
 }

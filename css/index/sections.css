@@ -158,3 +158,153 @@
     text-align: center;
     font-size: 20px;
 }
+
+/* width < 425*/
+@media screen and (max-width: 425px) {
+    .section--contents{
+        padding: 0rem 1rem;
+        border-top: 4px solid #222;
+    }
+    
+    .section--contents h1{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    
+    .section--contents p{
+        font-size: 18px;
+    }
+    
+    .section--grid{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* TV-OFF-WHEN  TEXT */
+    .tv--text,
+    .off--text,
+    .when--text,
+    .kids--text{
+        text-align: center;
+        margin: 0.5rem 0rem;
+    }
+
+    /* TV-OFF-WHEN  IMG */
+    .off--img img{
+        width: 16rem;
+        margin: 0% 20%;
+    }
+    .tv--img-vid img,
+    .when--img-vid img,
+    .kids--img img{
+        width: 18rem;
+    }
+    
+    .video--tv{
+        width: 13.4rem;
+        position: absolute;
+        top: 2.8rem;
+        left: 2.2rem;
+    }
+
+    .grid--revers{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .card--download{
+        margin: -2rem 10rem 1rem 6rem;
+    }
+
+    .download--infos img{
+        width: 2.4rem;
+        margin: 8px;
+    }
+    
+    
+    /* WHEN */
+    .video-when{
+        width: 11.8rem;
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+    }
+    
+    /* QUESTION */
+    .section--questions{
+        padding: 2% 15%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section--questions h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .questions--menu{
+        list-style: none;
+        justify-content: center;
+        width: 100%;
+    }   
+    
+    .questions--menu li{
+        cursor: pointer;
+        padding: 1rem 0.8rem;
+        margin: 0.2rem 0rem;
+        background-color: #303030;
+    }
+    
+    .questions--menu li a{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .questions--menu li a img{
+        width: 2.2rem;
+    }
+    
+    .help--what,
+    .help--money,
+    .help--where,
+    .help--how,
+    .help--can,
+    .help--kids{
+       display: none;
+    }
+    
+    .help--what p,
+    .help--money p,
+    .help--where p,
+    .help--how p,
+    .help--can p,
+    .help--kids p{
+        text-align: justify;
+        font-weight: 100;
+        align-items: center;
+    }
+    
+    /* REPORT */
+    .help--report{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .help--report h3{
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .help--report input{
+        padding: 12px 20%;
+        font-size: 12px;
+    }
+
+    .help--report button{
+        padding: 1rem;
+        margin: 0.6rem 5rem;
+        font-size: 12px;
+    }
+}
