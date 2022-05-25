@@ -66,7 +66,7 @@ header .logo img{
 }
 
 .text--report{
-    margin: 6.8rem 6rem;
+    margin: 6.8rem 1rem;
     color: #FFF;
     z-index: 10;
 }
@@ -86,24 +86,25 @@ header .logo img{
 /* report--from */
 .report--from{
     display: grid;
-    grid-template-columns: 30rem 11.5rem;
-    justify-content: center;
+    grid-template-columns: 2fr 1fr;
     margin-top: 14px;
+    padding: 0rem 6rem;
 }
 
 .report--from input{
-    padding: 18px 10px;
+    padding: 18px 8px;
     font-size: 22px;
     font-family: sans-serif;
 }
 
 .report--from button{
+    padding: 0.4rem 0.4rem;
     background-color: #e50914;
     color: #FFF;
     outline: none;
     border: none;
     margin-left: 1px;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 .report--from button:hover{
@@ -187,16 +188,17 @@ header .logo img{
     .report--from{
         display: flex;
         flex-direction: column;
+        padding: 0rem 1rem;
     }
 
     .report--from input{
-        padding: 12px 20%;
+        padding: 12px 8px;
         font-size: 12px;
     }
 
     .report--from button{
         padding: 1rem;
-        margin: 0.6rem 6rem;
+        margin: 0.6rem 4rem;
         font-size: 12px;
     }
 
