@@ -152,13 +152,11 @@
 
 .help--report{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-top: 14px;
-    padding: 0rem 6rem;
+    padding: 0rem 1.5rem;
+    text-align: center;
 }
 
-.help--report h3{
-    text-align: center;
+.help--info-report h3{
     font-size: 20px;
 }
 
@@ -166,6 +164,13 @@
     padding: 18px 8px;
     font-size: 22px;
     font-family: sans-serif;
+}
+
+.help--from{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 14px;
+    padding: 0rem 6rem;
 }
 
 .help--from button{

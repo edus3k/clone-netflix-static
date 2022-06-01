@@ -64,6 +64,7 @@ async function viewCarroseel(res){
         its += `<div class="carroseel--list${num}">`;
         item.items.results.forEach(it => {
             its += `<div class="carroseel--item">`;
+            //original
             its += `<img src="https://image.tmdb.org/t/p/original${it.poster_path || it.backdrop_path}" alt="${it.original_name}"/>`;
             its += `</div>`;
         });
@@ -110,7 +111,6 @@ async function viewSpotlight(res){
 
     document.querySelector('.spotlight--area').style = `background-image: url(https://image.tmdb.org/t/p/original${chosen.backdrop_path})`
 }
-
 
 function eventNavigate0(){
     const btnLeft = document.querySelector('.carroseel--move-left0');
@@ -185,7 +185,6 @@ function eventNavigate2(){
 }
 
 function eventNavigate(){
- 
     let valueX = 0;
     
     if(valueX  != -3250){
@@ -196,8 +195,6 @@ function eventNavigate(){
         valueX += 250;
         document.querySelector('.carroseel--list').style = `margin-left: ${valueX}px`;
     }
-    
-
 }
 
 function eventScroll(){
